@@ -1,0 +1,113 @@
+.form-container{
+
+    background-image: url(../../../../img/background/background-dark.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px -5px 20px var(--tertiary);
+
+    .form{
+        width: 40%;
+        margin: 0 auto 0 auto;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        font-weight: 200px;
+        margin-top: 60px;
+
+        &-fieldset{
+            
+            border-radius: 10px;
+           
+            padding: 10px;
+            
+           
+            .form-legend{
+                text-align: center;
+                font-size: 1.5rem;
+                color: var(--primary);
+
+            }
+            .form-div__item{
+                color: var(--light-gray);
+               label, input, textarea{
+                    display: block;
+                    font-family: var(--font-primary);
+                    
+               }
+               input, textarea{
+                    margin-bottom: 1rem;
+                    font-family: var(--font-primary);
+                    font-weight: 300;
+                    color: var(--light-gray);
+                    background: rgba(55, 52, 53, 0.7);
+                    border:0.125rem solid transparent;
+                    border-radius: 1.125rem;
+                    transition: border-color 0.3s;
+                    box-shadow: 0.3s;
+                    
+               }
+               input, textarea{
+                    width: 92%;
+                    font: inherit;
+                    padding:1.25rem;
+                    font-weight: 700;
+               }
+               input:hover, input:focus, textarea:hover, textearea:focus{
+                    outline: none;
+                    border-color: var(--dark-gray);
+                    box-shadow: 0 0 0 0.3125rem var(--tertiary);
+
+               }
+
+               label{
+                    margin-bottom: 2rem;
+                    
+
+               }
+               textarea{
+                    min-height: 12.5rem;
+                    resize: vertical;
+               }
+               &-input-error-message{
+                display: none;
+            }
+               
+            
+            }
+
+           
+
+            button{
+                width: 40%;
+                font: inherit;
+                padding:1.25rem;
+                margin: 10px auto 10px auto;
+                font-weight: 700;
+                display: block;
+                border: none;
+                border-radius: 99px;
+                color: var(--light-gray);
+                background-color:rgba(55, 52, 53, 0.7);
+                cursor: pointer;
+                transition: 0.3s;
+                &:hover, &:focus{
+                    outline: none;
+                    background: var(--primary);
+
+                }
+                &:disabled{
+                    cursor: not-allowed;
+                    background-color: #555b69;
+
+                }
+
+           }
+        }
+        @media screen and (max-width: 1080px){
+            width: 70%;
+        }
+        @media screen and (max-width: 1080px){
+            width: 90%;
+        }
+    }
+}

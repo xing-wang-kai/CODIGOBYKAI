@@ -1,0 +1,174 @@
+.carousel-container{
+    max-width: 70%;
+    margin: 30px  auto 30px auto;
+    .carousel{
+        display: flex;
+        overflow-x: auto; 
+        scroll-behavior: smooth;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    
+    }
+    
+    .carousel {
+        .item{
+            background-color: var(--light-gray);
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px var(--dark-gray);
+            
+            flex: none;
+            margin: 20px;
+            padding: 10px;
+            width: 30%;
+            .image img{
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            .info{
+                height: 260px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span{
+                    display: block;
+                    text-align: center;
+                    
+                    padding: 5px;
+                    border-radius: 10px;
+                }
+
+                .title {
+                    h3{
+                        color: var(--tertiary);
+                        font-family: var(--font-primary);
+                        font-size: 1.7rem;
+                        font-weight: 500;
+                        letter-spacing: 2px;
+                        margin: 15px auto 10px auto;
+                        height: 15px;
+
+                    }
+                }
+                .description{
+                    p{
+                        color: var(--dark-gray);
+                        font-family: var(--font-primary);
+                        font-size: 1.2rem;
+                        margin-top: 25px;
+                        height: 30%;
+                        @media screen and (max-width: 1280px){
+                            font-size: 0.8rem;
+                        }
+                    }
+                } 
+                .portifolio-button{
+                    margin: 10px auto 0 auto;
+                    background-color: var(--details);
+                    
+                    a{
+                        color: var(--primary);
+                        text-decoration: none;
+                        font-family: var(--font-primary);
+                    }
+                    &:hover{
+                        background-color: var(--primary);
+                        border: 2px solid var(--details);
+                        box-shadow: inset;
+                        a{
+                            color: white;
+                        }
+                    }
+                    
+                    
+                }
+                @media screen and (max-width: 1020px){
+                    height: 200px;
+                }
+                @media screen and (max-width: 740px){
+                    height: 150px;
+                }
+            }
+
+            @media screen and (max-width: 1020px){
+                width: 45%;
+                height: 400px;
+            }
+            @media screen and (max-width: 740px){
+                width: 90%;
+                height: 70%;
+            }
+
+        }
+        &::-webkit-scrollbar{
+            display: none;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+    }
+
+}
+
+.buttons{
+   
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.icon-carousel--button{
+    border: 0;
+    color: var(--dark-gray);
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.leftIcon, .rightIcon{
+    width: 200px;
+    margin-top: 30px
+}
+
+.portifolio-button{
+    background-color: black;
+    width: 150px;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 50px;
+  
+    transition: 0.1s ease;
+  }
+  
+  .portifolio-button:hover{
+    background-color: transparent;
+    border: 2px solid var(--secondary);
+  }
+
+@media (max-width: 820px) {
+    .carousel-container{
+        max-width: 80%;
+        margin: auto;
+        .carousel{
+       
+            height: 650px;
+            overflow: auto;
+        
+        }
+    }
+    
+    .leftIcon, .rightIcon{
+        width: 300px;
+    }
+}
+@media (max-width: 750px) {
+   
+    .leftIcon, .rightIcon{
+        display: none;
+    }
+}

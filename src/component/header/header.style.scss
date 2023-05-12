@@ -1,0 +1,87 @@
+.header-container{
+
+    display: flex;
+    width: 100vw;
+        position: fixed;
+        overflow: hidden;
+
+    background-color: black;
+   
+    font-family: var(--font-primary);
+    letter-spacing: 0.3rem;
+    justify-content: space-between;
+
+    align-items: center;
+   
+    
+    .img-container{
+        height: 100px;
+        padding: 10px;
+        margin-left: 5%;
+        a{
+            .img-source{
+                margin: 10px auto 0 auto;
+                width: 150px; 
+             }
+             @media screen and (max-width: 980px) {
+                margin-left: auto;
+                margin-right: auto;
+              }
+        
+            }
+        @media screen and (max-width: 980px) {
+            text-align: center;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .nav-menu-container{
+        .nav-menu-list{
+            display: flex;
+            margin-right: 20%;
+        
+            .nav-menu-item{
+                font-size: 1rem;
+                text-transform: uppercase;
+
+                padding: .5rem;
+                margin: 2rem;
+
+                border-bottom: 1px solid black;                
+                a{
+                    text-decoration: none;
+                    color: var(--light-gray);
+                    
+                }
+                &:hover{
+                    border-bottom: 1px solid var(--light-gray);
+                   
+                    a{
+                        color: var(--light-gray);
+                    }
+                }
+                @media screen and (max-width: 980px) {
+                   text-align: center;
+                   font-size: 1.5rem;
+                  }
+            }
+            @media screen and (max-width:980px) {
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 2rem;
+                width: 40%;
+              }
+            @media screen and (max-width: 620px) {
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width:980px) {
+        display: block;
+        margin: auto 0 auto 0;
+        position: relative;
+        overflow: visible;
+      }
+}

@@ -1,3 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald:wght@500&display=swap');
+
+:root{
+
+  --mediun-gray: #E8E8E8;
+  --light-gray: #FAFAFA ;
+  --primary: #FBB511;
+  --secondary: #B43436;
+  --tertiary: #373435;
+  --dark-gray: #A5A7A9 ;
+  --font-primary: 'Times New Roman', sans-serif;
+
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

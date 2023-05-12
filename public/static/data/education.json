@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript com foco no back-end",
+        "tag": "Back-end",
+        "description": " Básico ao avançado do javascript para programação funcional backend, com validação de array e verificação de alocamento de memorias",
+        "link":"https://cursos.alura.com.br/degree/certificate/84c5a1b5-d734-408b-993f-eca1c75e59f6"
+    },
+    {
+        "id": 2,
+        "title": "Formação React JS",
+        "tag": "Front-end",
+        "description": "Básico ao avançando de React com javascript, react components, react recoil, react router dom, styled components ",
+        "link":"https://cursos.alura.com.br/degree/certificate/492b652d-dc01-48c3-b178-14bc3d14b106"
+    },
+    {
+        "id": 3,
+        "title": "Java com Orientação a Objetos",
+        "tag": "Back-end",
+        "description": "programação funcional com Java para desenvolvimentos web, collections, orientaçãoa  objetos.",
+        "link":"https://cursos.alura.com.br/degree/certificate/d0ccc69f-b80d-4bf2-9738-5f500b63e620"
+    },
+    {
+        "id": 4,
+        "title": "Spring Framework",
+        "tag": "Back-end",
+        "description": "java servelet, uatenticação MVC, Maven, Java e JDBC, java e JPA, Spring Data, Spring MVC, Spring Boot Api Rest, Spring Boot security e testes.",
+        "link":"https://cursos.alura.com.br/degree/certificate/1fb9e7a0-50ac-407d-a3cd-395efc360e04"
+    },
+    {
+        "id": 5,
+        "title": "Python com Orientação a Objetos",
+        "tag": "Back-end",
+        "description": "Python básico ao anvaçado, orientação a objetos, collections e TDD",
+        "link":"https://cursos.alura.com.br/degree/certificate/6abb332c-8430-4475-872f-9703bf35d3ad"
+    },
+    {
+        "id": 6,
+        "title": "Desenvolvimento de Jogos com Unity",
+        "tag": "Games",
+        "description": "Desenvolvimentos de Game com C# usando Enginie Unity, criação de games 3d iluminções, particulas, UI, desenvolvimento de games mobiles",
+        "link":"https://cursos.alura.com.br/degree/certificate/f8848d35-66a6-4d4c-a255-b636df2e906e"
+    },
+    {
+        "id": 7,
+        "title": "HTML e CSS",
+        "tag": "Front-end",
+        "description": "Formação de técnicas de análise e designer com HTML e CSS",
+        "link":"https://cursos.alura.com.br/degree/certificate/d9e9b122-ff15-4e6e-8e90-e139a495300d"
+    },
+    {
+        "id": 8,
+        "title": "CSS: aprofunde em estilos",
+        "tag": "Front-end",
+        "description": "Flexbox e layouts responsivos, Grids, Sass, tailwind",
+        "link":"https://cursos.alura.com.br/degree/certificate/7f937ba0-a567-4853-bd83-ecae3f04f59f"
+    },
+    {
+        "id": 9,
+        "title": "Front-end",
+        "tag": "Front-end",
+        "description": "Formação para especialização em Front-end avançada, com utilidades de diversos tipos de tags e programação funcional",
+        "link":"https://cursos.alura.com.br/degree/certificate/2d625866-3fd3-44b0-8f77-ec5619fd34de"
+    },
+    {
+        "id": 10,
+        "title": "Web Acessíveis",
+        "tag": "Front-end",
+        "description": "Desenvolvimento de aplicações acessiveis a usuários, tanto para limitações visuais como funcionais.",
+        "link":"https://cursos.alura.com.br/degree/certificate/cddb5170-73ec-425a-8c04-4545db335e7a"
+    },
+    {
+        "id": 11,
+        "title": "Web com JavaScript",
+        "tag": "Front-end",
+        "description": "Javascript com foco para desenvolvimento WEB, aprofundado a manipulação do DOM, armazenamento de dados no navegador, validação e reconhecimento de voz, tratando dados recebidos de API, Métodos de dados com array, requisições, validações de formulários",
+        "link":"https://cursos.alura.com.br/degree/certificate/53553623-d6df-4b7f-be16-0bddcd2f5dae"
+    },
+    {
+        "id": 12,
+        "title": "Desenvolvimento com Typescript",
+        "tag": "Back-end",
+        "description": "Desenvolvimento web com modulos avançados de programação, ultilizando Typescript para melhorar o desempenho do javascript",
+        "link":"https://cursos.alura.com.br/degree/certificate/eabe9fb3-84f0-4be5-b48f-2026501b278e"
+    },
+    {
+        "id": 13,
+        "title": "Formação React Typescript",
+        "tag": "Front-end",
+        "description": "aplicaçãos web com REACT ultilzando Typescript para desenvolvimento web funcional, metodos de requisições http, react-recoil, react-router-dom",
+        "link":"https://cursos.alura.com.br/degree/certificate/5950cf1f-f186-4070-b74c-78bec2d0ef58"
+    },
+    {
+        "id": 14,
+        "title": "Gerencie aplicações React com Typescript",
+        "tag": "Front-end",
+        "description": "Lidando com arquivos estáticos, integrando projetos React com API, gerenciamento de status com RECOIL, teste de components, react com performace",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    },
+    {
+        "id": 15,
+        "title": "Graduação em Jogos digitais",
+        "tag": "Games",
+        "description": "Formação em jogos digitais, com foto em desenvolvimento de enginies e modelagem 3d para games, desenvolvimento de jogos mobiles, e games com JAVA e C#",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    }
+]
