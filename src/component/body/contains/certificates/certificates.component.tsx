@@ -16,7 +16,7 @@ const Certificates = () =>{
     const [ certificates, setCetificates ] = useState<ICertificate[]>([]);
 
     useEffect(  () => {
-        fetch('http://localhost:3000/static/data/education.json')
+        fetch('https://koderbykai.vercel.app/static/data/education.json')
                 .then((response) => response.json() )
                 .then(setCetificates)
                 .catch(e=>console.log(e));
