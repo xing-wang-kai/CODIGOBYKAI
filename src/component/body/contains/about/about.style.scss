@@ -26,6 +26,10 @@
                     font-weight: 700;
                     color: var(--primary);
                 }
+                @media screen and (max-width: 720px) {
+
+                     font-size: 1.5rem;
+                }
             }
             &-details{
                 font-family: var(--font-primary);
@@ -48,20 +52,18 @@
                 font-family: var(--font-primary);
                 padding: 1rem;
                 width: 40%;
+                @media screen and (max-width: 720px) {
+
+                    display: none;
+               }
                 .designer-icon{
                     width: 50%;
                     font-size: 7rem;
                     margin: 1rem;
                     color: var(--tertiary);
+                    
                 }
 
-                div{
-                    p{
-                        @media screen and (max-width: 690px){
-                            display: none;;
-                        }
-                    }
-                }
             }
         
         }

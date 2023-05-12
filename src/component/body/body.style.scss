@@ -26,6 +26,10 @@
         font-size: 1.5rem;
         letter-spacing: 0.2rem;
         text-transform: uppercase;
+        @media screen and (max-width: 720px) {
+            width: 80%;
+            font-size: 1.1rem;
+        }
     }
     .body-description{
         font-family: var(--font-primary);
@@ -33,6 +37,10 @@
         text-align: center;
 
         color: var(--mediun-gray);
+    }
+
+    @media screen and (max-width: 720px) {
+        width: 100%;
     }
 
 }
