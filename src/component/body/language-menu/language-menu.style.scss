@@ -1,0 +1,29 @@
+.language-container{
+
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+   
+    .language-menu{
+        background-color: rgba($color: var(--dark-gray), $alpha: 0.3);
+        display: flex;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        .language-item{
+            margin: 10px;
+            input{
+                
+                
+            }
+            label{
+                cursor: pointer;
+            }
+            img{
+                width: 50px;
+                height: 30px;
+                border-radius: 10px;
+            }
+        }
+    }
+    
+}

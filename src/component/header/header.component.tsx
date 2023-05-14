@@ -1,6 +1,11 @@
 import React from 'react';
+import { i18n } from '../../translate/i18n';
+
 import './header.style.scss';
+
 import logoimg from '../../img/logo-Kodigo-nobg-normal.png';
+
+
 const Header = () => {
     return (
      <header className='header-container'>
@@ -11,10 +16,10 @@ const Header = () => {
        </div>
        <nav className='nav-menu-container'>
             <ul className='nav-menu-list'>
-               <li className="nav-menu-item"><a href="#sobre">Sobre</a></li>
-               <li className="nav-menu-item"><a href="#projetos">Projetos</a></li>
-               <li className="nav-menu-item"><a href="#certificados">Certificados</a></li>
-               <li className="nav-menu-item"><a href="#contato">Contato</a></li>
+               <li className="nav-menu-item"><a href="#sobre">{i18n.t('header.menu.about')}</a></li>
+               <li className="nav-menu-item"><a href="#projetos">{i18n.t('header.menu.works')}</a></li>
+               <li className="nav-menu-item"><a href="#certificados">{i18n.t('header.menu.certificates')}</a></li>
+               <li className="nav-menu-item"><a href="#contato">{i18n.t('header.menu.contact')}</a></li>
                
             </ul>
        </nav>

@@ -7,6 +7,7 @@ import Works from './contains/works/works.components';
 import Contact from './contains/contact/contact.component';
 import Certificates from './contains/certificates/certificates.component';
 import Display from './contains/display/display.component';
+import Language from './language-menu/language-menu.component';
 
 
 const Body = () => {
@@ -18,7 +19,7 @@ const Body = () => {
            <About/>
            <Certificates/>
            <Contact/>
-           
+           <Language/>
         </main> 
         )
 }

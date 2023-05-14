@@ -1,6 +1,7 @@
 import './works.style.scss';
 
 import { useEffect, useState, useRef } from 'react';
+import { i18n } from '../../../../translate/i18n';
 import { SlArrowRightCircle, SlArrowLeftCircle } from "react-icons/sl";
 
 type Item = {
@@ -42,7 +43,7 @@ const Works = () =>
     return(
         <div id='projetos'>
             <fieldset className='body-titles--fieldset' >
-                 <legend className='body-titles'>Alguns dos meus últimos trabalhos</legend>
+                 <legend className='body-titles'>{i18n.t('main.works.title')}</legend>
             </fieldset>
            
             <div className='carousel-container'>
@@ -59,7 +60,7 @@ const Works = () =>
                             <div className='info'>
                                 <span className="title"> <h3>{item.title}</h3> </span>
                                 <span className='description'> <p>{item.description}</p> </span>
-                                <div  className="portifolio-button"><a href={item.link} target={"blank"}> Acesse </a></div>
+                                <div  className="portifolio-button"><a href={item.link} target={"blank"}>{i18n.t("main.works.card.button")} </a></div>
                             </div>
 
                             </div>

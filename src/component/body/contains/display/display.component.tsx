@@ -1,5 +1,6 @@
 import './display.style.scss';
 import React from 'react';
+import { i18n } from '../../../../translate/i18n'
 
 import logo from '../../../../img/logo-koder-pb-normal.png';
 
@@ -15,7 +16,7 @@ const Display = () => {
                     <img src={logo} alt="imagem da logo do koder" className="display-item--title__img" />
                 </h2>
                 <p className="display-item--description">
-                Desenvolvedor Fullstack que escreve código limpo, elegante e eficiente
+                {i18n.t("main.display.title")}
                 </p>
             </div>
         </div>

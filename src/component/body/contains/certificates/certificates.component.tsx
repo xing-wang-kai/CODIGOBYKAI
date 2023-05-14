@@ -1,4 +1,5 @@
 import React, {useEffect, useState}  from 'react';
+import { i18n } from '../../../../translate/i18n';
 
 import './certificates.style.scss';
 
@@ -13,10 +14,21 @@ interface ICertificate {
 
 const Certificates = () =>{
 
+    const [ link, setLink ] = useState<string>();
+
+    if(localStorage.getItem('I18N_STORAGE_KEY')=='pt-BR'){
+        setLink("education");
+    }else if(localStorage.getItem('I18N_STORAGE_KEY') == 'en-US'){
+        setLink("education.en");
+    }
+    else if(localStorage.getItem('I18N_STORAGE_KEY') == 'zh-cn'){
+        setLink("education.zn")
+    }
+
     const [ certificates, setCetificates ] = useState<ICertificate[]>([]);
 
     useEffect(  () => {
-        fetch('https://koderbykai.vercel.app/static/data/education.json')
+        fetch(`https://koderbykai.vercel.app/static/data/{link}.json`)
                 .then((response) => response.json() )
                 .then(setCetificates)
                 .catch(e=>console.log(e));
@@ -31,7 +43,7 @@ const Certificates = () =>{
 
             <div className='resume-education'>
             <fieldset className='body-titles--fieldset' >
-                  <legend className='body-titles'>Alguns dos meus certificados</legend>
+                  <legend className='body-titles'>{i18n.t('main.certificates.title')}</legend>
             </fieldset>
                 <div className='resume-education--cards'>
 
@@ -43,7 +55,7 @@ const Certificates = () =>{
                                 <h4 className='resume-education__title '>{item.title}</h4>
                                 <p className='resume-education__description'>{item.description}</p>
 
-                                <button className="resume-education__button"><a href={item.link} target="_blank" rel="noopener noreferrer">Acesse</a></button>
+                                <button className="resume-education__button"><a href={item.link} target="_blank" rel="noopener noreferrer">{i18n.t('main.certificates.cards.button')}</a></button>
                             </div>
                             
                           

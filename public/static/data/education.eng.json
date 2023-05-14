@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript focused on the backend",
+        "tag": "Back-end",
+        "description": " Basic to advanced javascript for functional backend programming, with array validation and memory allocation verification",
+        "link":"https://cursos.alura.com.br/degree/certificate/84c5a1b5-d734-408b-993f-eca1c75e59f6"
+    },
+    {
+        "id": 2,
+        "title": "React JS Training",
+        "tag": "Frontend",
+        "description": "Basic to advanced React with javascript, react components, react recoil, react router dom, styled components ",
+        "link":"https://cursos.alura.com.br/degree/certificate/492b652d-dc01-48c3-b178-14bc3d14b106"
+    },
+    {
+        "id": 3,
+        "title": "Object-Oriented Java",
+        "tag": "Backend",
+        "description": "functional programming with Java for web development, collections, object orientation.",
+        "link":"https://cursos.alura.com.br/degree/certificate/d0ccc69f-b80d-4bf2-9738-5f500b63e620"
+    },
+    {
+        "id": 4,
+        "title": "Spring Framework",
+        "tag": "Backend",
+        "description": "java servelet, MVC authentication, Maven, Java and JDBC, java and JPA, Spring Data, Spring MVC, Spring Boot Api Rest, Spring Boot security and testing.",
+        "link":"https://cursos.alura.com.br/degree/certificate/1fb9e7a0-50ac-407d-a3cd-395efc360e04"
+    },
+    {
+        "id": 5,
+        "title": "Object Oriented Python",
+        "tag": "Backend",
+        "description": "Basic to advanced Python, object orientation, collections and TDD",
+        "link":"https://cursos.alura.com.br/degree/certificate/6abb332c-8430-4475-872f-9703bf35d3ad"
+    },{
+        "id": 6,
+        "title": "Game Development with Unity",
+        "tag": "Game",
+        "description": "Game development with C# using Enginie Unity, creation of 3d games lighting, particles, UI, development of mobile games",
+        "link":"https://cursos.alura.com.br/degree/certificate/f8848d35-66a6-4d4c-a255-b636df2e906e"
+    },
+    {
+        "id": 7,
+        "title": "HTML and CSS",
+        "tag": "Frontend",
+        "description": "Training analysis and design techniques with HTML and CSS",
+        "link":"https://cursos.alura.com.br/degree/certificate/d9e9b122-ff15-4e6e-8e90-e139a495300d"
+    },
+    {
+        "id": 8,
+        "title": "CSS: Dive into Styles",
+        "tag": "Frontend",
+        "description": "Flexbox and responsive layouts, Grids, Sass, tailwind",
+        "link":"https://cursos.alura.com.br/degree/certificate/7f937ba0-a567-4853-bd83-ecae3f04f59f"
+    },
+    {
+        "id": 9,
+        "title": "Frontend",
+        "tag": "Frontend",
+        "description": "Training for specialization in advanced Front-end, with utilities of different types of tags and functional programming",
+        "link":"https://cursos.alura.com.br/degree/certificate/2d625866-3fd3-44b0-8f77-ec5619fd34de"
+    },
+    {
+        "id": 10,
+        "title": "Accessible Web",
+        "tag": "Frontend",
+        "description": "Development of applications accessible to users, both for visual and functional limitations.",
+        "link":"https://cursos.alura.com.br/degree/certificate/cddb5170-73ec-425a-8c04-4545db335e7a"
+    },
+    {
+        "id": 11,
+        "title": "Web with JavaScript",
+        "tag": "Frontend",
+        "description": "Javascript focused on WEB development, in-depth DOM manipulation, data storage in the browser, validation and voice recognition, handling data received from API, Data Methods with array, requests, form validations",
+        "link":"https://cursos.alura.com.br/degree/certificate/53553623-d6df-4b7f-be16-0bddcd2f5dae"
+    },
+    {
+        "id": 12,
+        "title": "Typescript Development",
+        "tag": "Backend",
+        "description": "Web development with advanced programming modules, using Typescript to improve javascript performance",
+        "link":"https://cursos.alura.com.br/degree/certificate/eabe9fb3-84f0-4be5-b48f-2026501b278e"
+    },
+    {
+        "id": 13,
+        "title": "React Typescript Training",
+        "tag": "Frontend",
+        "description": "web applications with REACT using Typescript for functional web development, http request methods, react-recoil, react-router-dom",
+        "link":"https://cursos.alura.com.br/degree/certificate/5950cf1f-f186-4070-b74c-78bec2d0ef58"
+    },
+    {
+        "id": 14,
+        "title": "Manage React apps with Typescript",
+        "tag": "Frontend",
+        "description": "Dealing with static files, integrating React projects with API, managing status with RECOIL, testing components, react with performance",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    },
+    {
+        "id": 15,
+        "title": "Graduation in Digital Games",
+        "tag": "Game",
+        "description": "Training in digital games, with photo in development of enginies and 3d modeling for games, development of mobile games, and games with JAVA and C#",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    }
+]

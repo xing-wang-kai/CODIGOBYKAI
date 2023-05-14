@@ -3,48 +3,49 @@ import './about.style.scss';
 import { FaChromecast } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
+import {i18n} from '../../../../translate/i18n';
 
 const About = () =>{
     return (
         <div className="about-container" id='sobre'>
             <fieldset className='body-titles--fieldset' >
-              <legend className='body-titles'>Um pouco sobre mim</legend>
+              <legend className='body-titles'>{i18n.t('main.about.principal')}</legend>
             </fieldset>
 
             <div className="about-infor-card">
              <div className='about-info'>
-                <h3 className='about-info-title'>Me chamo <span>Kai,</span> desenvolvedor web fullstack</h3>
-                <p className='about-info-details'>Sou apaixonado por códigos durantes os anos me aperfeiçoei como programador Web Fullstack, tenho certificados voltados ao backend e frontend em diversas tecnologias, consulte meus <a href='#certificado'>certificados</a> 
+                <h3 className='about-info-title'>{i18n.t("main.about.title")}</h3>
+                <p className='about-info-details'>{i18n.t('main.about.paragraph1')} <a href='#certificado'>{i18n.t('main.about.paragraphlink')}</a> 
                </p>
                <br />
-               <p className='about-info-details'> Sou certificado pela Google para procedimento de implementação de conversões para campanhas no Google ADS, Remarketing, conversões otimizadas, e configurações no Google Analytics 4, por códigos ou Google Tag Manager (GTM)</p>
+               <p className='about-info-details'>{i18n.t('main.about.paragraph2')} </p>
                <br />
             </div>
             <div className='about-functions'>
                 <div className='about-functions__card'>
                     <FaChromecast  className='designer-icon'/>
                     <div>
-                        <h4>Desenvolvedor Front-end</h4>
+                        <h4>{i18n.t('main.about.function.cards.frontend.title')}</h4>
                         <hr/>
-                        <p>HTML, CSS, Javascript, boa práticas com código, conhecimentos em frameworks como REACT, Sass, metodologia Lem, css Display Grid, boas aplicações em Class e Div para otimização do site em campanhas google ads </p>
+                        <p>{i18n.t('main.about.function.cards.frontend.description')}</p>
                     </div>
                 </div>
 
                 <div className='about-functions__card'>
                     <FaLaptopCode  className='designer-icon'/>
                     <div>
-                        <h4>Desenvolvedor Back-end</h4>
+                        <h4>{i18n.t('main.about.function.cards.backend.title')}</h4>
                         <hr/>
-                        <p>Java, TypeScript, python, conhecimento em frameworks como Spring, nodejs, express, metodologia ágil com aplicações em RESTfull, ORM(Object-relational-Mapping), boas práticas MVC(model - view - control).</p>
+                        <p>{i18n.t('main.about.function.cards.frontend.description')}</p>
                     </div>
                 </div>
 
                 <div className='about-functions__card'>
                     <GiConsoleController  className='designer-icon' />
                     <div>
-                        <h4>Desenvolvedor Games</h4>
+                        <h4>{i18n.t('main.about.function.cards.games.title')}</h4>
                         <hr/>
-                        <p>habilidades de desenvolvimento de games e já desenvolvi Motores para jogos com JAVA, também tenho habilidades em ultilizar ferramentas modernas para desenvolvimento de games 2d e 3d como Unity.</p>
+                        <p>{i18n.t('main.about.function.cards.games.description')}</p>
                     </div>
                 </div>
 
