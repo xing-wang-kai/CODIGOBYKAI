@@ -12,23 +12,26 @@ interface ICertificate {
 
 }
 
+let link = '';
+const storage = window.localStorage.getItem('i18nextLng')
+
+    if(storage === 'pt-BR'){
+        link = 'education';
+    }else if (storage === 'en-US'){
+        link = "education.en";
+    }
+    else{
+        link = "education.zn"
+    } 
+
 const Certificates = () =>{
-
-    const [ link, setLink ] = useState<string>();
-
-    if(localStorage.getItem('I18N_STORAGE_KEY')=='pt-BR'){
-        setLink("education");
-    }else if(localStorage.getItem('I18N_STORAGE_KEY') == 'en-US'){
-        setLink("education.en");
-    }
-    else if(localStorage.getItem('I18N_STORAGE_KEY') == 'zh-cn'){
-        setLink("education.zn")
-    }
+      
 
     const [ certificates, setCetificates ] = useState<ICertificate[]>([]);
+    console.log(`https://koderbykai.vercel.app/static/data/${link}.json`)
 
     useEffect(  () => {
-        fetch(`https://koderbykai.vercel.app/static/data/{link}.json`)
+        fetch(`https://koderbykai.vercel.app/static/data/${link}.json`)
                 .then((response) => response.json() )
                 .then(setCetificates)
                 .catch(e=>console.log(e));

@@ -18,7 +18,7 @@ const Language = () =>{
             event.target.value
         )
        window.location = window.location;
-       console.log(localStorage);
+      
     }
 
     

@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "JavaScript 专注于后端",
+        "tag": "Back-end",
+        "description": " 用于函数式后端编程的基础到高级 javascript，具有数组验证和内存分配验证",
+        "link":"https://cursos.alura.com.br/degree/certificate/84c5a1b5-d734-408b-993f-eca1c75e59f6"
+    },
+    {
+        "id": 2,
+        "title": "React JS 培训",
+        "tag": "Front-end",
+        "description": "从基础到高级，使用 javascript 进行 React、反应组件、反应后坐力、反应路由器 dom、样式化组件",
+        "link":"https://cursos.alura.com.br/degree/certificate/492b652d-dc01-48c3-b178-14bc3d14b106"
+    },
+    {
+        "id": 3,
+        "title": "面向对象的 Java",
+        "tag": "Back-end",
+        "description": "使用 Java 进行函数式编程，用于 Web 开发、集合、面向对象。",
+        "link":"https://cursos.alura.com.br/degree/certificate/d0ccc69f-b80d-4bf2-9738-5f500b63e620"
+    },
+    {
+        "id": 4,
+        "title": "弹簧框架",
+        "tag": "Back-end",
+        "description": "java servelet, uatenticação MVC, Maven, Java e JDBC, java e JPA, Spring Data, Spring MVC, Spring Boot Api Rest, Spring Boot security e testes.",
+        "link":"https://cursos.alura.com.br/degree/certificate/1fb9e7a0-50ac-407d-a3cd-395efc360e04"
+    },
+    {
+        "id": 5,
+        "title": "面向对象的 Python",
+        "tag": "Back-end",
+        "description": "从基础到高级 Python、面向对象、集合和 TDD",
+        "link":"https://cursos.alura.com.br/degree/certificate/6abb332c-8430-4475-872f-9703bf35d3ad"
+    },
+    {
+        "id": 6,
+        "title": "Unity 游戏开发",
+        "tag": "Games",
+        "description": "使用 Enginie Unity 使用 C# 开发游戏，创建 3d 游戏灯光、粒子、UI，手机游戏开发",
+        "link":"https://cursos.alura.com.br/degree/certificate/f8848d35-66a6-4d4c-a255-b636df2e906e"
+    },
+    {
+        "id": 7,
+        "title": "HTML 和 CSS",
+        "tag": "Front-end",
+        "description": "使用 HTML 和 CSS 训练分析和设计技术",
+        "link":"https://cursos.alura.com.br/degree/certificate/d9e9b122-ff15-4e6e-8e90-e139a495300d"
+    },
+    {
+        "id": 8,
+        "title": "CSS: 深入研究样式",
+        "tag": "Front-end",
+        "description": "Flexbox 和响应式布局、Grids、Sass、tailwind",
+        "link":"https://cursos.alura.com.br/degree/certificate/7f937ba0-a567-4853-bd83-ecae3f04f59f"
+    },
+    {
+        "id": 9,
+        "title": "前端",
+        "tag": "Front-end",
+        "description": "高级前端专业化培训，具有不同类型标签和函数式编程的实用程序",
+        "link":"https://cursos.alura.com.br/degree/certificate/2d625866-3fd3-44b0-8f77-ec5619fd34de"
+    },
+    {
+        "id": 10,
+        "title": "无障碍网页",
+        "tag": "Front-end",
+        "description": "开发用户可访问的应用程序，包括视觉和功能限制。",
+        "link":"https://cursos.alura.com.br/degree/certificate/cddb5170-73ec-425a-8c04-4545db335e7a"
+    },
+    {
+        "id": 11,
+        "title": "Web with JavaScript",
+        "tag": "Front-end",
+        "description": "Javascript 专注于 WEB 开发、深入的 DOM 操作、浏览器中的数据存储、验证和语音识别、处理从 API 接收的数据、数组数据方法、请求、表单验证",
+        "link":"https://cursos.alura.com.br/degree/certificate/53553623-d6df-4b7f-be16-0bddcd2f5dae"
+    },
+    {
+        "id": 12,
+        "title": "打字稿开发",
+        "tag": "Back-end",
+        "description": "使用高级编程模块进行Web开发，使用Typescript提高javascript性能",
+        "link":"https://cursos.alura.com.br/degree/certificate/eabe9fb3-84f0-4be5-b48f-2026501b278e"
+    },
+    {
+        "id": 13,
+        "title": "React Typescript 培训",
+        "tag": "Front-end",
+        "description": "使用 Typescript 进行 REACT 的 Web 应用程序用于功能性 Web 开发、http 请求方法、react-recoil、react-router-dom",
+        "link":"https://cursos.alura.com.br/degree/certificate/5950cf1f-f186-4070-b74c-78bec2d0ef58"
+    },
+    {
+        "id": 14,
+        "title": "使用 Typescript 管理 React 应用程序",
+        "tag": "Front-end",
+        "description": "处理静态文件，将 React 项目与 API 集成，使用 RECOIL 管理状态，测试组件，对性能做出反应",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    },
+    {
+        "id": 15,
+        "title": "数字游戏毕业",
+        "tag": "Games",
+        "description": "数字游戏培训，游戏引擎开发和 3D 建模照片，手机游戏开发，以及 JAVA 和 C# 游戏",
+        "link":"https://cursos.alura.com.br/degree/certificate/e09b24ca-90f7-4eb8-9017-f5ba17c4db53"
+    }
+]
