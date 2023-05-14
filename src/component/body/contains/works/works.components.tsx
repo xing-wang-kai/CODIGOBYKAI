@@ -13,6 +13,18 @@ type Item = {
     link: string
 }
 
+let link = '';
+const storage = window.localStorage.getItem('i18nextLng')
+
+    if(storage === 'pt-BR'){
+        link = 'works-cards.pt';
+    }else if (storage === 'en-US'){
+        link = "works-cards.en";
+    }
+    else{
+        link = "works-cards.zn"
+    } 
+
 const Works = () => 
 {
         const [workData, setWorkData] = useState([]);
@@ -20,7 +32,7 @@ const Works = () =>
         const carousel: any | null = useRef(null);
 
         useEffect( () => {
-            fetch('https://my-procfile.vercel.app/static/works-cards.json')
+            fetch(`https://koderbykai.vercel.app/static/data/${link}.json`)
                 .then((response) => response.json() )
                 .then(setWorkData);
             }, []

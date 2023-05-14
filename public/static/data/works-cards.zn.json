@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "img": "https://my-procfile.vercel.app/static/props/site-musicdot.png",
+        "alt": "乐点首页图片",
+        "title": "音乐点",
+        "description": "Music Dot' 网站，着陆页类型（单页网站，用于推广营销线索、课程公告和一般宣传），以推广在线音乐学校",
+        "link": "https://musicdot-six.vercel.app/"
+    },
+    {
+        "id": 2,
+        "img": "https://my-procfile.vercel.app/static/props/site-aluranewsletter.png",
+        "alt": "Alura NewsLetter 图片",
+        "title": "Alura NewsLetter",
+        "description": "发送时事通讯的响应页面",
+        "link": "https://projeto-kaiwang-newsletter-tailwind.vercel.app/"
+    }
+    ,
+    {
+        "id": 3,
+        "img": "https://my-procfile.vercel.app/static/props/site-bookstore.png",
+        "alt": "书店网站图片",
+        "title": "书店",
+        "description": "销售编程相关书籍的电商网页，负责手机端",
+        "link": "https://projeto-kaiwang-book-store.vercel.app/"
+    }
+    ,
+    {
+        "id": 4,
+        "img": "https://my-procfile.vercel.app/static/props/site-googleglass.png",
+        "alt": "google glass 网站图片",
+        "title": "谷歌眼镜",
+        "description": "包含与 Google Glass 相关的技术规范的页面以及产品购买营销和“联系我们”申请表",
+        "link": "https://projeto-google-glass-lake.vercel.app/"
+        
+    }
+    ,
+    {
+        "id": 5,
+        "img": "https://my-procfile.vercel.app/static/props/site-mirrorfashion.png",
+        "alt": "镜像时尚网站图片",
+        "title": "镜子时尚",
+        "description": "魔镜时装定制化电商页面",
+        "link": "https://exercicios-html-css-js-mirror-fashio-alura.vercel.app/"
+        
+    }
+    ,
+    {
+        "id": 6,
+        "img": "https://my-procfile.vercel.app/static/props/site-barbeariaalura.png",
+        "alt": "图片来自 Barbearia Alura 网站",
+        "title": "阿鲁拉理发店",
+        "description": "用于请求和安排 Barbearia Alura 服务的商业页面",
+        "link": "https://portifolio-barbearia.vercel.app/"
+        
+    }
+    ,
+    {
+        "id": 7,
+        "img": "https://my-procfile.vercel.app/static/props/site-restaurantealuroni.png",
+        "alt": "Aluroni 餐厅网站图片",
+        "title": "阿洛尼",
+        "description": "Aluroni 餐厅页面，带有菜单筛选器和按关键字搜索菜肴的筛选器，项目由 Json 动态添加",
+        "link": "https://projeto-aluroni-nu.vercel.app/"
+        
+    }
+    
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "img": "https://my-procfile.vercel.app/static/props/site-musicdot.png",
+        "alt": "Music dot home page image",
+        "title": "The Music dot",
+        "description": "'Music Dot' website, landing page type (one-page website for promoting leads for marketing and course announcements and general publicity) to promote online music school",
+        "link": "https://musicdot-six.vercel.app/"
+    },
+    {
+        "id": 2,
+        "img": "https://my-procfile.vercel.app/static/props/site-aluranewsletter.png",
+        "alt": "image for Alura NewsLetter",
+        "title": "Alura NewsLetter",
+        "description": "Responsive page for sending Newsletter",
+        "link": "https://projeto-kaiwang-newsletter-tailwind.vercel.app/"
+    }
+    ,
+    {
+        "id": 3,
+        "img": "https://my-procfile.vercel.app/static/props/site-bookstore.png",
+        "alt": "book store website images",
+        "title": "Book Store",
+        "description": "e-commerce web page for the sale of books related to programming, with responsibility for mobile phones",
+        "link": "https://projeto-kaiwang-book-store.vercel.app/"
+    }
+    ,
+    {
+        "id": 4,
+        "img": "https://my-procfile.vercel.app/static/props/site-googleglass.png",
+        "alt": "google glass site image",
+        "title": "Google glass",
+        "description": "Page with technical specifications related to Google Glass with marketing for product purchase and 'contact us' request form",
+        "link": "https://projeto-google-glass-lake.vercel.app/"
+       
+    }
+    ,
+    {
+        "id": 5,
+        "img": "https://my-procfile.vercel.app/static/props/site-mirrorfashion.png",
+        "alt": "mirror fashion site image",
+        "title": "Mirror Fashion",
+        "description": "Customized e-commerce page for Mirror Fashion'",
+        "link": "https://exercicios-html-css-js-mirror-fashio-alura.vercel.app/"
+       
+    }
+    ,
+    {
+        "id": 6,
+        "img": "https://my-procfile.vercel.app/static/props/site-barbeariaalura.png",
+        "alt": "image from Barbearia Alura website",
+        "title": "Alura Barbershop",
+        "description": "Commercial page for requesting and scheduling services for Barbearia Alura",
+        "link": "https://portifolio-barbearia.vercel.app/"
+       
+    }
+    ,
+    {
+        "id": 7,
+        "img": "https://my-procfile.vercel.app/static/props/site-restaurantealuroni.png",
+        "alt": "Aluroni Restaurant website image",
+        "title": "Aluroni",
+        "description": "Aluroni restaurant page, with menu filters and search filters for dishes by keywords, items are dynamically added by Json",
+        "link": "https://projeto-aluroni-nu.vercel.app/"
+       
+    }
+    
+]
