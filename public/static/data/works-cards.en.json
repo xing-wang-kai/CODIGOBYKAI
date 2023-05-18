@@ -63,6 +63,15 @@
         "description": "Aluroni restaurant page, with menu filters and search filters for dishes by keywords, items are dynamically added by Json",
         "link": "https://projeto-aluroni-nu.vercel.app/"
        
+    },
+    {
+        "id": 8,
+        "img": "https://my-procfile.vercel.app/static/props/site-kaiwang_viagens.png.png",
+        "alt": "site kaiwang trips",
+        "title": "kai wang trips",
+        "description": "Page built in wordpress for businesses focused on travel itineraries, this page has devices to modify the language",
+        "link": "https://kodersolutions.com/kaiwangviagens/"
+        
     }
     
 ]
