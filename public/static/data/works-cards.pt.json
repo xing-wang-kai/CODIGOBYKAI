@@ -72,6 +72,15 @@
         "description": "Página construida no wordpress para negócios focados em roteiros de viagens, esta página possuí artificios de modificar o idioma",
         "link": "https://kaiwangviagens.kodersolutions.com/"
         
+    },
+    {
+        "id": 9,
+        "img": "https://my-procfile.vercel.app/static/props/site-ateliedadiva.png",
+        "alt": "Imgam do site ateliê da diva",
+        "title": "Ateliê da diva",
+        "description": "Site desenvolvido para divulgar a marca de pequeno negócio Ateliê da Diva",
+        "link": "https://ateliedadiva.kodersolutions.com/"
+        
     }
 
     

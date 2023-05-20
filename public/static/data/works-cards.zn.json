@@ -72,6 +72,15 @@
         "description": "为专注于旅游行程的企业内置wordpress页面，该页面有修改语言的工具",
         "link": "https://kaiwangviagens.kodersolutions.com/"
         
+    },
+    {
+        "id": 9,
+        "img": "https://my-procfile.vercel.app/static/props/site-ateliedadiva.png",
+        "alt": "ateliê da diva 网站图片",
+        "title": "Ateliê da diva",
+        "description": "为推广小型企业品牌 Ateliê da Diva 而开发的网站",
+        "link": "https://ateliedadiva.kodersolutions.com/"
+        
     }
     
 ]
